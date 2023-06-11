@@ -7,6 +7,8 @@ options for customization.
 If you have questions, feel free to join the [SliceMK
 Discord](https://discord.gg/FQvyd7BAaA).
 
+[ErgoDox Wireless Guide](https://www.slicemk.com/pages/ergodox-wireless-guide)
+
 # Instructions
 
 - Fork this repository on GitHub.
