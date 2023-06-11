@@ -1,4 +1,4 @@
-This repository contains the default ZMK user configuration for the [ErgoDox
+This repository contains the default [ZMK](https://zmk.dev/) user configuration for the [ErgoDox
 Wireless](https://www.slicemk.com/pages/ergodox-wireless) keyboard. While the
 [SliceMK Keymap Configurator](https://config.slicemk.com/) is recommended for
 the majority of users, the GitHub Actions workflow provides some additional
