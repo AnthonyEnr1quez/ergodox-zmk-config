@@ -1,7 +1,7 @@
 This repository contains the default [ZMK](https://zmk.dev/) user configuration for the [ErgoDox
 Wireless](https://www.slicemk.com/pages/ergodox-wireless) keyboard. While the
-[SliceMK Keymap Configurator](https://config.slicemk.com/) is recommended for
-the majority of users, the GitHub Actions workflow provides some additional
+[SliceMK Keymap Configurator](https://config.slicemk.com/zmk/) is recommended
+for the majority of users, the GitHub Actions workflow provides some additional
 options for customization.
 
 If you have questions, feel free to join the [SliceMK
@@ -31,14 +31,17 @@ dongle/PCB into bootloader mode and check the "Model" value within the
 
 GitHub Actions will only build the firmware for your central. Please download
 the firmware for your peripheral(s)
-[here](https://www.slicemk.com/pages/ergodox-wireless-peripheral).
+[here](https://docs.slicemk.com/keyboard/ergodox/peripheral/).
 
 Here are some of the common dongle options:
 
+- **Raytac MDBT50Q-CX Blue**
+	- Board `raytac_mdbt50q_cx_blue`
+	- Shield `slicemk_ergodox_dongle`
 - **Raytac MDBT50Q-RX Green**
 	- Board `raytac_mdbt50q_rx_green`
 	- Shield `slicemk_ergodox_dongle`
-- **Raytac MDBT50Q-RX** (if it does not say "green")
+- **Raytac MDBT50Q-RX** (if model name does not include "Green")
 	- Board `raytac_mdbt50q_rx`
 	- Shield `slicemk_ergodox_dongle`
 - **Nordic nRF52840 Dongle**
